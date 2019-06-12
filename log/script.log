@@ -1,0 +1,509 @@
+2019-01-24 12:46:28,469 [Thread-3:12068] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-01-25 17:29:38,890 [Thread-3:13216] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-01-25 17:58:27,053 [Thread-9:3552] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/1
+2019-01-25 17:59:56,257 [Thread-12:3904] [django.request:152] [base:get_response] [WARNING]- Not Found: /aritcle
+2019-01-25 18:01:01,808 [Thread-4:16828] [django.request:152] [base:get_response] [WARNING]- Not Found: /1
+2019-01-25 18:01:05,739 [Thread-5:5780] [django.request:152] [base:get_response] [WARNING]- Not Found: /2
+2019-01-25 18:01:08,372 [Thread-6:12024] [django.request:152] [base:get_response] [WARNING]- Not Found: /3
+2019-01-25 18:18:16,993 [Thread-11:17404] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\response.py", line 107, in render
+    self.content = self.rendered_content
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 1046, in render
+    return render_value_in_context(output, context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 1024, in render_value_in_context
+    value = force_text(value)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\encoding.py", line 78, in force_text
+    s = six.text_type(s)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\html.py", line 385, in <lambda>
+    klass.__unicode__ = lambda self: mark_safe(klass_unicode(self))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\boundfield.py", line 41, in __str__
+    return self.as_widget()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\boundfield.py", line 127, in as_widget
+    **kwargs
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\widgets.py", line 221, in render
+    return self._render(self.template_name, context, renderer)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\widgets.py", line 226, in _render
+    return mark_safe(renderer.render(template_name, context))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 31, in render
+    template = self.get_template(template_name)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 37, in get_template
+    return self.engine.get_template(template_name)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 45, in engine
+    'OPTIONS': {},
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 30, in __init__
+    options['libraries'] = self.get_templatetag_libraries(libraries)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 48, in get_templatetag_libraries
+    libraries = get_installed_libraries()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 113, in get_installed_libraries
+    for name in get_package_libraries(pkg):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 126, in get_package_libraries
+    module = import_module(entry[1])
+  File "C:\Python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\sorftware\djangoBlog\django_blog\blog\templatetags\myfilter.py", line 9
+SyntaxError: Non-ASCII character '\xe4' in file C:\sorftware\djangoBlog\django_blog\blog\templatetags\myfilter.py on line 9, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2019-01-25 18:18:19,678 [Thread-13:2708] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\response.py", line 107, in render
+    self.content = self.rendered_content
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 1046, in render
+    return render_value_in_context(output, context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 1024, in render_value_in_context
+    value = force_text(value)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\encoding.py", line 78, in force_text
+    s = six.text_type(s)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\html.py", line 385, in <lambda>
+    klass.__unicode__ = lambda self: mark_safe(klass_unicode(self))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\boundfield.py", line 41, in __str__
+    return self.as_widget()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\boundfield.py", line 127, in as_widget
+    **kwargs
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\widgets.py", line 221, in render
+    return self._render(self.template_name, context, renderer)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\widgets.py", line 226, in _render
+    return mark_safe(renderer.render(template_name, context))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 31, in render
+    template = self.get_template(template_name)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 37, in get_template
+    return self.engine.get_template(template_name)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 45, in engine
+    'OPTIONS': {},
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 30, in __init__
+    options['libraries'] = self.get_templatetag_libraries(libraries)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 48, in get_templatetag_libraries
+    libraries = get_installed_libraries()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 113, in get_installed_libraries
+    for name in get_package_libraries(pkg):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 126, in get_package_libraries
+    module = import_module(entry[1])
+  File "C:\Python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\sorftware\djangoBlog\django_blog\blog\templatetags\myfilter.py", line 9
+SyntaxError: Non-ASCII character '\xe4' in file C:\sorftware\djangoBlog\django_blog\blog\templatetags\myfilter.py on line 9, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2019-01-25 18:18:21,969 [Thread-15:18960] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\response.py", line 107, in render
+    self.content = self.rendered_content
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 1046, in render
+    return render_value_in_context(output, context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 1024, in render_value_in_context
+    value = force_text(value)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\encoding.py", line 78, in force_text
+    s = six.text_type(s)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\html.py", line 385, in <lambda>
+    klass.__unicode__ = lambda self: mark_safe(klass_unicode(self))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\boundfield.py", line 41, in __str__
+    return self.as_widget()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\boundfield.py", line 127, in as_widget
+    **kwargs
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\widgets.py", line 221, in render
+    return self._render(self.template_name, context, renderer)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\widgets.py", line 226, in _render
+    return mark_safe(renderer.render(template_name, context))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 31, in render
+    template = self.get_template(template_name)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 37, in get_template
+    return self.engine.get_template(template_name)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\forms\renderers.py", line 45, in engine
+    'OPTIONS': {},
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 30, in __init__
+    options['libraries'] = self.get_templatetag_libraries(libraries)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 48, in get_templatetag_libraries
+    libraries = get_installed_libraries()
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 113, in get_installed_libraries
+    for name in get_package_libraries(pkg):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 126, in get_package_libraries
+    module = import_module(entry[1])
+  File "C:\Python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\sorftware\djangoBlog\django_blog\blog\templatetags\myfilter.py", line 9
+SyntaxError: Non-ASCII character '\xe4' in file C:\sorftware\djangoBlog\django_blog\blog\templatetags\myfilter.py on line 9, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2019-01-25 18:36:04,811 [Thread-11:5776] [django.request:152] [base:get_response] [WARNING]- Not Found: /1
+2019-01-25 18:36:13,798 [Thread-13:17316] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/1
+2019-01-25 18:36:59,414 [Thread-16:2928] [django.request:152] [base:get_response] [WARNING]- Not Found: /article？id=4
+2019-01-25 18:37:25,707 [Thread-19:17060] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-25 18:37:46,355 [Thread-27:19384] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-25 18:37:59,354 [Thread-29:916] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-25 18:40:01,729 [Thread-60:1264] [django.request:152] [base:get_response] [WARNING]- Not Found: /article.html
+2019-01-25 18:43:06,763 [Thread-65:14696] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-25 18:43:12,503 [Thread-68:14676] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-25 19:10:01,733 [Thread-72:10024] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-26 15:09:17,325 [Thread-25:1264] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-01-26 15:09:35,263 [Thread-38:19216] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-26 15:31:06,773 [Thread-50:5576] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-26 15:31:07,901 [Thread-63:5668] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-01-26 15:34:50,313 [Thread-66:14980] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2019-01-26 17:36:01,259 [Thread-68:12560] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/None
+2019-01-26 20:10:09,200 [Thread-5:18424] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/login
+2019-01-26 21:42:11,614 [Thread-6:19116] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\sorftware\djangoBlog\django_blog\blog\views.py", line 118, in article
+    return render(request, 'article.html', locals())
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+2019-01-26 21:42:19,081 [Thread-7:4156] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\sorftware\djangoBlog\django_blog\blog\views.py", line 118, in article
+    return render(request, 'article.html', locals())
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+2019-01-26 21:42:25,874 [Thread-8:14384] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\sorftware\djangoBlog\django_blog\blog\views.py", line 118, in article
+    return render(request, 'article.html', locals())
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+2019-01-26 21:42:31,576 [Thread-10:1440] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\sorftware\djangoBlog\django_blog\blog\views.py", line 118, in article
+    return render(request, 'article.html', locals())
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+2019-01-26 21:44:52,964 [Thread-18:14692] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/None
+2019-01-27 10:09:46,700 [Thread-3:7784] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-01-27 10:36:47,427 [Thread-13:17660] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /reg
+Traceback (most recent call last):
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\sorftware\djangoBlog\django_blog\blog\views.py", line 171, in do_reg
+    return render(request, 'reg.html', locals())
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\sorftware\djangoBlog\venv\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'reg' not found. 'reg' is not a valid view function or pattern name.
+2019-01-27 10:47:43,321 [Thread-11:3044] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-02-04 11:59:23,897 [Thread-25:13336] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-02-04 11:59:58,812 [Thread-41:11400] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2019-02-04 12:00:00,369 [Thread-42:12312] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2019-02-04 12:02:50,469 [Thread-111:11624] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/base.html
+2019-02-06 21:57:45,313 [Thread-25:1908] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-02-06 21:59:54,703 [Thread-29:4412] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2019-02-24 19:59:24,480 [Thread-25:11200] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico

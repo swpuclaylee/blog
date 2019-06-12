@@ -1,0 +1,17 @@
+2019-01-26 20:32:16,295 [Thread-5:11184] [blog.views:139] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 20:43:36,575 [Thread-5:16708] [blog.views:139] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:36:47,648 [Thread-27:2852] [blog.views:143] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:39:18,559 [Thread-2:10808] [blog.views:144] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:39:52,540 [Thread-2:15404] [blog.views:144] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:41:02,802 [Thread-2:14032] [blog.views:147] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:45:31,026 [Thread-28:1212] [blog.views:147] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:46:15,243 [Thread-35:19408] [blog.views:147] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:47:38,509 [Thread-6:14416] [blog.views:147] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:50:03,681 [Thread-38:17960] [blog.views:147] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:52:57,506 [Thread-65:8100] [blog.views:147] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 21:59:25,384 [Thread-6:8832] [blog.views:147] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-26 22:03:06,857 [Thread-5:12936] [blog.views:143] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleard_date'
+2019-01-27 10:43:35,992 [Thread-2:17808] [blog.views:171] [views:do_reg] [ERROR]- Reverse for '' not found. '' is not a valid view function or pattern name.
+2019-01-27 10:47:04,099 [Thread-5:18932] [blog.views:171] [views:do_reg] [ERROR]- Reverse for '' not found. '' is not a valid view function or pattern name.
+2019-01-27 11:08:28,594 [Thread-28:1192] [blog.views:192] [views:do_login] [ERROR]- argument of type 'NoneType' is not iterable
+2019-01-27 11:09:25,190 [Thread-32:14524] [blog.views:192] [views:do_login] [ERROR]- argument of type 'NoneType' is not iterable
